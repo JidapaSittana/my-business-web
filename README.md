@@ -32,7 +32,7 @@ my-business-web
 # ลิงก์ไปแต่ละหน้า (Page Links)
 
 [หน้าแรก](index.html)
-![index.html](images/index.png)
+![index.html](https://drive.google.com/file/d/1pG566VmrvYHfXmIDUI7KYCChQOuaXY7R/view?usp=drive_link)
 
 [เกี่ยวกับ](about.html)
 ![index.html](images/about1.png)
