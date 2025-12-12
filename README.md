@@ -4,7 +4,7 @@
 # ✨ ฟีเจอร์หลักของเว็บ (Key Features)
 แสดงข้อมูลบริษัท Innovate Digital Solutions (IDS)
 
-นำเสนอผู้บริหาร (กรรมการบริษัทคือ ลัดดา สิทธิกะษณะ)
+นำเสนอผู้บริหาร
 
 แสดงเป้าหมาย (Mission) และวิสัยทัศน์ (Vision)
 
@@ -19,19 +19,20 @@
 # 📂 โครงสร้างไฟล์ (File Structure)
 
 my-business-web/
-├── index.html
-├── about.html
-├── services.html
-├── contact.html
+MY BUSINESS WEB/
 ├── images/
-│   └── about1.png
-│   └── about2.png
-│   └── Aungaing.png
-│   └── contact.png
-│   └── index.png
-│   └── logo.webp
-│   └── services.png
-│   └── คมกริช.jpg
+│   ├── 1.jpg
+│   ├── 2.jpg
+│   ├── 3.jpg
+│   ├── 4.jpg
+│   ├── 5.jpg
+│   ├── CEO.png
+│   ├── ceo2.jpg
+│   └── logo.png
+├── about.html
+├── contact.html
+├── index.html
+├── services.html
 └── README.md
 
 # ลิงก์ไปแต่ละหน้า (Page Links)
