@@ -37,16 +37,10 @@ MY BUSINESS WEB/
 
 # ลิงก์ไปแต่ละหน้า (Page Links)
 
-[หน้าแรก](http://127.0.0.1:5501/my-business-web/index.html)
-![หน้าแรก](images/1.png)
+| ชื่อหน้า  | ลิงก์                               |
+| :-------- | :---------------------------------- |
+| หน้าแรก   | http://127.0.0.1:5501/my-business-web/index.html    |
+| เกี่ยวกับ | http://127.0.0.1:5501/my-business-web/about.html    |
+| บริการ    | http://127.0.0.1:5501/my-business-web/services.html |
+| ติดต่อ    | http://127.0.0.1:5501/my-business-web/contact.html  |
 
-[เกี่ยวกับ](http://127.0.0.1:5501/my-business-web/about.html)
-![เกี่ยวกับ](images/2.png)
-![เกี่ยวกับ](images/3.png)
-
-
-[บริการ](http://127.0.0.1:5501/my-business-web/services.html)
-![บริการ](images/4.png)
-
-[ติดต่อ](http://127.0.0.1:5501/my-business-web/contact.html)
-![ติดต่อ](images/5.png)
