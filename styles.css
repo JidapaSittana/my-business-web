@@ -1,0 +1,169 @@
+/* ========================
+ RESET & DEFAULTS
+ ======================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* ========================
+ TYPOGRAPHY
+ ======================== */
+h1 {
+  font-size: 2.5rem;
+  color: #264de4;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: #264de4;
+}
+
+a:hover {
+  color: #1b2fa0;
+}
+
+/* ========================
+ LAYOUT & CONTAINERS
+ ======================== */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.section {
+  margin-bottom: 3rem;
+}
+
+/* ========================
+ HEADER & NAV
+ ======================== */
+#header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #fff;
+  border-bottom: 2px solid #264de4;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+/* ========================
+ BUTTONS
+ ======================== */
+.btn {
+  padding: 0.5rem 1rem;
+  background-color: #264de4;
+  color: #fff;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #1b2fa0;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
+/* ========================
+ HERO / WELCOME
+ ======================== */
+.welcome {
+  text-align: center;
+  padding: 4rem 1rem;
+  background-color: #e8ecff;
+}
+
+.welcome h1 {
+  font-size: 5vw; /* viewport unit */
+}
+
+/* ========================
+ CARDS / SERVICES
+ ======================== */
+.suggest ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #fff;
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 30%;
+  min-width: 280px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.card:first-child {
+  border-color: #264de4;
+}
+
+/* ========================
+ FOOTER
+ ======================== */
+#footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 3rem;
+}
+
+/* ========================
+ IMAGES
+ ======================== */
+img {
+  max-width: 100%;
+  height: auto;
+}
