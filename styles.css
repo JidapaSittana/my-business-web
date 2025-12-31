@@ -65,7 +65,7 @@ a:hover {
 }
 
 /* ========================
- HEADER & NAV
+ HEADER & NAV (ปรับให้เล็กลง)
  ======================== */
 #header {
   position: sticky;
@@ -73,10 +73,15 @@ a:hover {
   z-index: 100;
   background-color: #fff;
   border-bottom: 2px solid #264de4;
-  padding: 1rem 2rem;
+  padding: 0.8rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+#header .logo img {
+  height: 60px;
+  width: auto;
 }
 
 .nav-menu {
@@ -166,4 +171,61 @@ a:hover {
 img {
   max-width: 100%;
   height: auto;
+}
+/* ========================
+ SECTIONS / ABOUT / CONTACT
+ ======================== */
+.section {
+  background-color: #fff;
+  padding: 1.5rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+/* ========================
+ FORMS (หน้า Contact)
+ ======================== */
+form input,
+form textarea,
+form button {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+form button {
+  background-color: #264de4;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+form button:hover {
+  background-color: #1b2fa0;
+  transform: translateY(-2px);
+}
+
+/* ========================
+ TABLES (หน้า Services)
+ ======================== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+
+table th,
+table td {
+  border: 1px solid #264de4;
+  padding: 0.75rem;
+  text-align: left;
+  background-color: #fff;
+}
+
+table th {
+  background-color: #e8ecff;
 }
