@@ -1,7 +1,9 @@
 # 🌐 Innovate Digital Solutions (IDS)
+
 เว็บไซต์สำหรับบริษัทผู้ให้บริการโซลูชั่นดิจิทัลและเทคโนโลยี ประกอบด้วยหน้าหลัก, หน้าเกี่ยวกับบริษัท, หน้าบริการ และหน้าติดต่อ
 
 # ✨ ฟีเจอร์หลักของเว็บ (Key Features)
+
 แสดงข้อมูลบริษัท Innovate Digital Solutions (IDS)
 
 นำเสนอผู้บริหาร
@@ -21,20 +23,19 @@
 my-business-web/
 MY BUSINESS WEB/
 ├── images/
-│   ├── 1.jpg
-│   ├── 2.jpg
-│   ├── 3.jpg
-│   ├── 4.jpg
-│   ├── 5.jpg
-│   ├── CEO.png
-│   ├── ceo2.jpg
-│   └── logo.png
+│ ├── 1.jpg
+│ ├── 2.jpg
+│ ├── 3.jpg
+│ ├── 4.jpg
+│ ├── 5.jpg
+│ ├── CEO.png
+│ ├── ceo2.jpg
+│ └── logo.png
 ├── about.html
 ├── contact.html
 ├── index.html
 ├── services.html
 └── README.md
-
 
 ![ภาพหน้าจอของหน้าแรก](images/1.jpg)
 ![ภาพหน้าจอของหน้าเกี่ยวกับ](images/2.jpg)
@@ -46,8 +47,7 @@ MY BUSINESS WEB/
 
 | ชื่อหน้า  | ลิงก์                               |
 | :-------- | :---------------------------------- |
-| หน้าแรก   | http://127.0.0.1:5501/my-business-web/index.html    |
-| เกี่ยวกับ | http://127.0.0.1:5501/my-business-web/about.html    |
-| บริการ    | http://127.0.0.1:5501/my-business-web/services.html |
-| ติดต่อ    | http://127.0.0.1:5501/my-business-web/contact.html  |
-
+| หน้าแรก   | http://127.0.0.1:5501/index.html    |
+| เกี่ยวกับ | http://127.0.0.1:5501/about.html    |
+| บริการ    | http://127.0.0.1:5501/services.html |
+| ติดต่อ    | http://127.0.0.1:5501/contact.html  |
